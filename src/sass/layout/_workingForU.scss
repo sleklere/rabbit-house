@@ -1,0 +1,49 @@
+body {
+  background: linear-gradient(
+      0deg,
+      rgba(17, 17, 17, 0.7),
+      rgba(17, 17, 17, 0.7)
+    ),
+    url("dark-concrete-texture-background.jpg");
+  background-size: cover;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.working-for-you {
+  font-family: "Fonseca", "Montserrat", sans-serif;
+  color: $color_secondary;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .logo {
+    // height: 65rem;
+    width: 65rem;
+    max-width: 100%;
+  }
+
+  h1 {
+    font-family: inherit;
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .scribble-1 {
+    position: absolute;
+    top: -3%;
+    left: 0;
+    height: 14rem;
+    width: 28rem;
+    transform: scaleX(-1);
+    // transform: rotate(-50deg);
+  }
+  .scribble-2 {
+    position: absolute;
+    bottom: -8%;
+    right: 0;
+    height: 20rem;
+    width: 20rem;
+  }
+}
